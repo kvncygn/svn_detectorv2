@@ -1,0 +1,17 @@
+# SVN Log klasörleri ve dosyaları
+log-*/
+log_*.txt
+*summary.txt
+
+# Test ve simülatör dosyaları
+test_simulator.py
+test_*.py
+
+# Kişisel klasör yollarını içeren ayar dosyası
+config.json
+
+# İşletim sistemi önbellek dosyaları
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
