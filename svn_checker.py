@@ -117,6 +117,8 @@ def main():
     output_dir_config = config.get("output_dir", "")
     if not output_dir_config:
         output_dir_config = base_dir
+    elif not os.path.isabs(output_dir_config):
+        output_dir_config = os.path.join(base_dir, output_dir_config)
 
     main_log_folder = os.path.join(output_dir_config, f"log-{today_time}")
     

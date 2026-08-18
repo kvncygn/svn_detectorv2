@@ -6,6 +6,7 @@ log_*.txt
 # Test ve simülatör dosyaları
 test_simulator.py
 test_*.py
+test_*.bat
 
 # Kişisel klasör yollarını içeren ayar dosyası
 config.json
